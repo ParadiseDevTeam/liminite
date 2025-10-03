@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "liminite",
+	"version": "${version}",
+	"name": "liminite",
+	"description": "A mod which does something on one minute.",
+	"authors": [
+		"Medlar Wreak (ParadiseDevTeam)"
+	],
+	"contact": {
+		"homepage": "https://prdis.me/",
+		"sources": "https://github.com/ParadiseDevTeam/liminite"
+	},
+	"license": "MIT",
+	"icon": "assets/liminite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			{
+				"value": "me.prdis.liminite.LiminiteClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
