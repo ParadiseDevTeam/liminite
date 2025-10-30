@@ -15,6 +15,6 @@ Fabric 1.21.1
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 
-## Licsnse
+## License
 
 [[MIT](LICENSE)]
